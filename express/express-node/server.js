@@ -41,6 +41,9 @@ app.get("/", function (req, res) {
 });
 
 app.get("/posenetdata", function(req,res){
+  var data = JSON.parse(req.query.data);
+  anypost(data);
+  res.end("1");
 });
 
 app.listen(3000, function () {

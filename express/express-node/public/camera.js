@@ -41284,6 +41284,7 @@ function detectPoseInRealTime(video, net) {
     // scores
 
 
+    hidden.src = "http://localhost:3000/posenetdata?data=" + encodeURIComponent(JSON.stringify(poses));
     poses.forEach(({
       score,
       keypoints
@@ -41304,9 +41305,9 @@ function detectPoseInRealTime(video, net) {
     }); // End monitoring code for frames per second
 
     stats.end();
-    requestAnimationFrame(poseDetectionFrame);
     videoWidth = window.innerWidth;
     videoHeight = window.innerHeight;
+    requestAnimationFrame(poseDetectionFrame);
   }
 
   poseDetectionFrame();
