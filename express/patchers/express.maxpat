@@ -121,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.5, 220.0, 144.0, 66.0 ],
+					"patching_rect" : [ 945.5, 56.0, 144.0, 66.0 ],
 					"text" : "This is the dynamically generated webpage that the server serves"
 				}
 
@@ -309,7 +309,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.0, 237.0, 44.0, 22.0 ],
+					"patching_rect" : [ 757.0, 300.0, 89.0, 22.0 ],
 					"text" : "reload"
 				}
 
@@ -346,7 +346,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 288.0, 302.0, 193.0 ],
+					"patching_rect" : [ 867.0, 125.0, 764.0, 621.0 ],
 					"rendermode" : 0,
 					"url" : "http://localhost:3000/index.html"
 				}
@@ -387,8 +387,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -466,8 +464,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -584,7 +580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 99.0, 743.0, 411.5, 743.0, 411.5, 218.0, 450.5, 218.0 ],
+					"midpoints" : [ 99.0, 743.0, 411.5, 743.0, 411.5, 218.0, 766.5, 218.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -692,7 +688,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 727.5, 667.0, 819.0, 667.0, 819.0, 177.0, 450.5, 177.0 ],
+					"midpoints" : [ 727.5, 667.0, 619.0, 667.0, 619.0, 177.0, 766.5, 177.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -700,7 +696,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 450.5, 256.0, 499.5, 256.0 ],
+					"midpoints" : [ 766.5, 34.0, 876.5, 34.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -721,10 +717,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "express-node",
-				"bootpath" : "~/Downloads/posenet-node-max/express",
-				"patcherrelativepath" : "..",
-				"type" : "fold",
+				"name" : "server.js",
+				"bootpath" : "~/Downloads/posenet-node-max/express/express-node",
+				"patcherrelativepath" : "../express-node",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
