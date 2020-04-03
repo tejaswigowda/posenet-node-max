@@ -1,7 +1,11 @@
 # posenet-node-max
 
 ## Usage
-<img src='code.png'>
+Open `/express/express.maxproj`
+
 
 ## Customization
-Edit /express/express-node/server.js
+Edit `/express/express-node/server.js`
+<img src='code.png'>
+
+Poses are available in `data` variable.
