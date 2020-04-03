@@ -41284,7 +41284,7 @@ function detectPoseInRealTime(video, net) {
     // scores
 
 
-    hidden.src = "http://localhost:3000/posenetdata?data=" + encodeURIComponent(JSON.stringify(poses));
+    loadFile("http://localhost:3000/posenetdata?data=" + encodeURIComponent(JSON.stringify(poses)),function(d){});
     poses.forEach(({
       score,
       keypoints
