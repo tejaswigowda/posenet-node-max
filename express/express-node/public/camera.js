@@ -40895,8 +40895,8 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
  * limitations under the License.
  * =============================================================================
  */
-const videoWidth = 600;
-const videoHeight = 500;
+var videoWidth = window.innerWidth;
+var videoHeight = window.innerHeight;
 const stats = new _stats.default();
 /**
  * Loads a the camera to be used in the demo
@@ -41139,6 +41139,7 @@ function setupGui(cameras, net) {
 
 
 function setupFPS() {
+  return;
   stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
 
   document.getElementById('main').appendChild(stats.dom);
@@ -41304,9 +41305,12 @@ function detectPoseInRealTime(video, net) {
 
     stats.end();
     requestAnimationFrame(poseDetectionFrame);
+    videoWidth = window.innerWidth;
+    videoHeight = window.innerHeight;
   }
 
   poseDetectionFrame();
+
 }
 /**
  * Kicks off the demo by loading the posenet model, finding and loading

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -387,6 +387,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -464,6 +466,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -717,10 +721,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "server.js",
-				"bootpath" : "~/Downloads/n4m-examples-master/express/express-node",
-				"patcherrelativepath" : "../express-node",
-				"type" : "TEXT",
+				"name" : "express-node",
+				"bootpath" : "~/Downloads/posenet-node-max/express",
+				"patcherrelativepath" : "..",
+				"type" : "fold",
 				"implicit" : 1
 			}
  ],
