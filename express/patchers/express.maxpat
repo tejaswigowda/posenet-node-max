@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 389.0, 128.0, 985.0, 783.0 ],
+		"rect" : [ 59.0, 138.0, 1108.0, 590.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,54 +46,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 70.0, 535.0, 59.0, 22.0 ],
 					"text" : "sel ready"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-51",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 718.0, 633.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 718.0, 603.0, 82.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 629.0, 603.0, 75.0, 22.0 ],
-					"text" : "set slider $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 629.0, 549.0, 108.0, 17.0 ]
 				}
 
 			}
@@ -187,40 +139,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "dict.view",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 441.0, 644.0, 177.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 441.0, 566.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 441.0, 535.0, 48.0, 22.0 ],
-					"text" : "sel title"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -269,29 +187,6 @@
 			}
 , 			{
 				"box" : 				{
-					"data" : 					{
-						"accesses" : 165,
-						"slider" : 54
-					}
-,
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 441.0, 603.0, 147.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict pagestats @embed 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -309,7 +204,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 757.0, 300.0, 89.0, 22.0 ],
+					"patching_rect" : [ 473.0, 78.0, 89.0, 22.0 ],
 					"text" : "reload"
 				}
 
@@ -346,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 867.0, 125.0, 764.0, 621.0 ],
+					"patching_rect" : [ 473.0, 124.0, 764.0, 621.0 ],
 					"rendermode" : 0,
 					"url" : "http://localhost:3000/index.html"
 				}
@@ -387,6 +282,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -464,6 +361,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -511,13 +410,6 @@
 					"destination" : [ "obj-8", 0 ],
 					"midpoints" : [ 205.5, 132.0, 79.5, 132.0 ],
 					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -580,7 +472,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 99.0, 743.0, 411.5, 743.0, 411.5, 218.0, 766.5, 218.0 ],
+					"midpoints" : [ 99.0, 743.0, 411.5, 743.0, 411.5, 61.0, 482.5, 61.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -608,29 +500,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -657,46 +528,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"order" : 1,
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"order" : 0,
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 727.5, 667.0, 619.0, 667.0, 619.0, 177.0, 766.5, 177.0 ],
-					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 766.5, 34.0, 876.5, 34.0 ],
+					"midpoints" : [ 482.5, 114.0, 482.5, 114.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -717,10 +550,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "server.js",
-				"bootpath" : "~/Downloads/posenet-node-max/express/express-node",
-				"patcherrelativepath" : "../express-node",
-				"type" : "TEXT",
+				"name" : "express-node",
+				"bootpath" : "~/Downloads/posenet-node-max/express",
+				"patcherrelativepath" : "..",
+				"type" : "fold",
 				"implicit" : 1
 			}
  ],
