@@ -2,9 +2,12 @@
 
 ## Usage
 Open `/express/express.maxproj`
+Click on `script start` button.
+
+( You may need to install dependencies one time by clicking `script npm install` button ) 
 
 
-## Customization
+## Using PoseNet data
 Edit `/express/express-node/server.js`
 <img src='code.png'>
 
