@@ -1,5 +1,7 @@
 # posenet-node-max
 
+<video src='posenet-node-max.mp4'> </video>
+
 ## Usage
 Open `/express/express.maxproj`
 Click on `script start` button.
