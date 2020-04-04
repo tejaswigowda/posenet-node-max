@@ -241,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 124.0, 764.0, 621.0 ],
+					"patching_rect" : [ 473.0, 124.0, 974.666672945022583, 677.000001668930054 ],
 					"rendermode" : 0,
 					"url" : "http://localhost:3000/index.html"
 				}
@@ -550,10 +550,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "express-node",
-				"bootpath" : "~/Downloads/posenet-node-max/express",
-				"patcherrelativepath" : "..",
-				"type" : "fold",
+				"name" : "server.js",
+				"bootpath" : "~/Downloads/posenet-node-max/express/express-node",
+				"patcherrelativepath" : "../express-node",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
