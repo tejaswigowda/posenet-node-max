@@ -1,6 +1,6 @@
 # posenet-node-max
 
-<img src='demo.webp' style='height: 400px'>
+<img src='demo.webp' height=400>
 
 ## Usage
 Open `/express/express.maxproj`
