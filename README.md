@@ -2,6 +2,9 @@
 
 ## Usage
 Open `/express/express.maxproj`
+Click on `script start` button.
+
+( You may need to install dependencies one time by clicking `script npm install` button ) 
 
 
 ## Using PoseNet data
