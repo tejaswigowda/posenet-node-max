@@ -4,7 +4,7 @@
 Open `/express/express.maxproj`
 
 
-## Customization
+## Using PoseNet data
 Edit `/express/express-node/server.js`
 <img src='code.png'>
 
