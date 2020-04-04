@@ -1,6 +1,6 @@
 # posenet-node-max
 
-<img src='demo.gif'>
+<img src='demo.gif' style='width:100%'>
 
 ## Usage
 Open `/express/express.maxproj`
