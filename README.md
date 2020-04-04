@@ -1,6 +1,7 @@
 # posenet-node-max
 
-<video src='posenet-node-max.mp4'> </video>
+<video src='posenet-node-max.mp4'>
+</video>
 
 ## Usage
 Open `/express/express.maxproj`
