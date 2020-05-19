@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 138.0, 1108.0, 590.0 ],
+		"rect" : [ 123.0, 231.0, 1387.0, 590.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -241,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 124.0, 974.666672945022583, 677.000001668930054 ],
+					"patching_rect" : [ 467.0, 155.0, 919.666672945022583, 596.000001668930054 ],
 					"rendermode" : 0,
 					"url" : "http://localhost:3000/index.html"
 				}
@@ -282,8 +282,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -361,8 +359,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -529,7 +525,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 482.5, 114.0, 482.5, 114.0 ],
+					"midpoints" : [ 482.5, 114.0, 476.5, 114.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -550,10 +546,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "server.js",
-				"bootpath" : "~/Downloads/posenet-node-max/express/express-node",
-				"patcherrelativepath" : "../express-node",
-				"type" : "TEXT",
+				"name" : "express-node",
+				"bootpath" : "~/Downloads/posenet-node-max/express",
+				"patcherrelativepath" : "..",
+				"type" : "fold",
 				"implicit" : 1
 			}
  ],
